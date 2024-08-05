@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.11.2",
+    "@razorlabs/wallet-kit": "^0.4.1",
     "autoprefixer": "^10.4.20",
     "dotenv": "^16.4.5",
     "ethers": "^6.13.2",

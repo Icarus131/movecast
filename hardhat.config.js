@@ -1,6 +1,15 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
 
-/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.24",
+  solidity: "0.8.9",
+  networks: {
+    movement: {
+      url: "https://mevm.devnet.imola.movementlabs.xyz",
+      accounts: [process.env.PRIVATE_KEY],
+    },
+  },
+  paths: {
+    artifacts: "./artifacts",
+  },
 };
