@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-contract YouTube {
+contract Cast {
     uint256 public videoCount = 0;
     string public name = "Cast";
     mapping(uint256 => Video) public videos;
