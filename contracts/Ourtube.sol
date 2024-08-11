@@ -1,9 +1,9 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-contract Cast {
+contract Ourtube {
     uint256 public videoCount = 0;
-    string public name = "Cast";
+    string public name = "Ourtube Cast";
     mapping(uint256 => Video) public videos;
 
     struct Video {
